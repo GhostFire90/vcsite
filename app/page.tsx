@@ -48,22 +48,23 @@ export default function Home() {
           </div>
         </div>
       
-        <div className="bg-zinc-900 flex-1 overflow-hidden inner">
-          <p className="p-8 text-lg text-center">
+        <div className="home_content flex-1">
+         
           
-          <h2 className="text-2xl">About Me:</h2><br/>
+         <h2>About Me:</h2>
+          <p>
           I am a software dev who enjoys the challenge and satisfaction of low-level programming as well as problem solving. <br />
-          You will find my contact information as well as project descriptions on this website, however this was generally to learn Next.js/React as well as usage of shadcn/ui components<br/><br/>
-          <h2 className="text-2xl">Known Programming Languages:</h2>
-          <ul>
+          You will find my contact information as well as project descriptions on this website, however this was generally to learn Next.js/React as well as usage of shadcn/ui components<br/>
+          </p>
+          <h2>Known Programming Languages:</h2>
+          
+          <ul className="p-4 text-lg text-center">
             <li>C (Most comfortable)</li>
             <li>C++</li>
             <li>Rust</li>
             <li>C#</li>
             <li>x86 Assembly</li>
           </ul>
-          
-          </p>
         </div>
       </div>
     

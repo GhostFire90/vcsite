@@ -91,3 +91,21 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.home_content{
+  --tw-bg-opacity: 1;
+    background-color: rgb(24 24 27 / var(--tw-bg-opacity))/* #18181b */;
+    overflow:hidden
+    i
+}
+.home_content p{
+  text-align: center;
+  padding: 2rem;
+}
+.home_content h2{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+}
