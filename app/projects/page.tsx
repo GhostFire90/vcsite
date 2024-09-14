@@ -69,7 +69,7 @@ export default function Projects() {
           </div>
 
           <div className="content_gap">
-            <Link href=""><h1>Hobkey</h1></Link>
+            <Link href={github_link+"Hobkey"}><h1>Hobkey</h1></Link>
             <div className="flex_container">
               <p>
                 Hobkey is my hobey kernel that I am developing for research purposes and getting a better understanding of
