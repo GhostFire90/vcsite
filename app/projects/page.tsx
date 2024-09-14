@@ -56,12 +56,12 @@ export default function Projects() {
         <ScrollArea className="w-full h-full">
           <div className="content_gap">
             <Link href={github_link+"SnailMail"}><h1>SnailMail</h1></Link>
-            <div className="flex">
+            <div className="flex_container">
               <p>
                 SnailMail works almost exaclty like email does except with the twist of adding tension through the means of a "delivery" system. Configurable on server side, you can control how many days it takes for the file to be "Delivered", what this means is, the recipient cannot download the file until that amount of time has passed.<br />
                 SnailMail automatically uses an asymetric public key encryption algorithm to ecrypt your files so noone except the planned recipient can view them
               </p>
-              <img src={github_link+"/SnailMail/raw/main/newLook.gif"} className="object-contain"/>
+              <img src={github_link+"/SnailMail/raw/main/newLook.gif"}/>
               
             
               
@@ -70,7 +70,7 @@ export default function Projects() {
 
           <div className="content_gap">
             <Link href=""><h1>Hobkey</h1></Link>
-            <div className="flex">
+            <div className="flex_container">
               <p>
                 Hobkey is my hobey kernel that I am developing for research purposes and getting a better understanding of
                 how operating systems work and how they interract with hardware.
@@ -82,7 +82,7 @@ export default function Projects() {
 
           <div className="content_gap">
             <h1>Redim</h1>
-            <div className="flex">
+            <div className="flex_container">
               <p>
                 Redim is an interpreted Lua-like language me and another person worked on over the course of a year. It was created to form a better understanding of programming languages and interpreters.
                 <br />
@@ -90,7 +90,7 @@ export default function Projects() {
                 <br />
                 Redim currently has no public repositories but once we have it available this will be updated with the link
               </p>
-              <img src="static/images/redim_vecmath.PNG" className="object-contain"/>
+              <img src="static/images/redim_vecmath.PNG"/>
             </div>
           </div>
         </ScrollArea>
