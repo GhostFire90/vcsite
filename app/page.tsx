@@ -25,7 +25,7 @@ export default function Home() {
               <SheetContent side="left">
               <Link href="/">
                 <Button style={{ width: "90%" }} variant="ghost">
-                  Home
+                  About Me
                 </Button>
               </Link>
               <Link href="/projects">
@@ -33,12 +33,6 @@ export default function Home() {
                   Projects
                 </Button>
               </Link>
-              <Link href="/contact">
-                <Button style={{ width: "90%" }} variant="ghost">
-                  Contact
-                </Button>
-              </Link>
-
               </SheetContent>
             </Sheet>
             <h1 style={{ margin: "auto", fontSize:"40px" }}>
@@ -54,7 +48,7 @@ export default function Home() {
          <h2>About Me:</h2>
           <p>
           I am a software dev who enjoys the challenge and satisfaction of low-level programming as well as problem solving. <br />
-          You will find my contact information as well as project descriptions on this website, however this was generally to learn Next.js/React as well as usage of shadcn/ui components<br/>
+          You will find my contact information as well as project descriptions on this website, however it is largely under development.<br/>
           </p>
           <h2>Known Programming Languages:</h2>
           
